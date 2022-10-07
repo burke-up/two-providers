@@ -1,0 +1,18 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: a9de8445c302a48c748e
+            client-secret: 2f134adbab1986e69b08069c00d467a867ba54e3
+            scope:
+                - user:email
+                - read:user
+          google:
+            client-id: 25403803259-5v15ttpckcpjduotbk4agc6v5lmtaobi.apps.googleusercontent.com
+            client-secret: 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
+
+#logging:
+#  level:
+#    org.springframework.security: DEBUG
